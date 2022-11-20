@@ -1,0 +1,35 @@
+.detail-items {
+  padding: 0px 50px 25px 0;
+  border-bottom: 1px solid #ffffff;
+  &:last-child {
+    border-bottom: none;
+  }
+  .item-title {
+    font-size: 20px;
+  }
+  .detail-form {
+    li {
+      list-style: none;
+      &::after {
+        content: ' ';
+        clear: both;
+        display: block;
+        visibility: hidden;
+      }
+    }
+    margin: 20px 0;
+    font-size: 15px;
+    color: #333;
+  }
+}
+.detail-form-left {
+  float: left;
+  width: 75px;
+  font-weight: bolder;
+}
+
+
+.order-map {
+  height: 450px;
+  margin: 25px -31px 0;
+}
